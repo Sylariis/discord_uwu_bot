@@ -1,0 +1,11 @@
+{
+  "name": "uwu",
+  "version": "1.0.0",
+  "description": "un ung ug ugun ugng ugu guguguguug fried chicken",
+  "main": "uwu.js",
+  "author": "sel",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "nedb": "^1.8.0"
+  }
+}
