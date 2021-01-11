@@ -154,7 +154,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     boss_flag=2;
                     bot.sendMessage({
                         to: channelID,
-                        message: 'HOLY FUCKING SHIT ITS A WHALE KILL IT'
+                        message: 'OH MY, ITS A WHALE KILL IT'
                     });
                     bot.sendMessage({
                         to: channelID,
@@ -231,7 +231,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 var lastupdate=recieved_user_data.length -1;
                 bot.sendMessage({
                   to: channelID,
-                  message: 'uwu hewe awe uw stats master-chan ugu uwu owo *nuzzles u* ' +  '\nuser:' + recieved_user_data[lastupdate].user + '\nClass:'+ recieved_user_data[lastupdate].class +'\n HP:' + recieved_user_data[lastupdate].HP_CURR + "/" + recieved_user_data[lastupdate].HP_MAX + '\n Level:' + recieved_user_data[lastupdate].level + "\n EXP:" + recieved_user_data[lastupdate].EXP
+                  message: 'uwu hewe awe uw stats ugu uwu owo *nuzzles u* ' +  '\nuser:' + recieved_user_data[lastupdate].user + '\nClass:'+ recieved_user_data[lastupdate].class +'\n HP:' + recieved_user_data[lastupdate].HP_CURR + "/" + recieved_user_data[lastupdate].HP_MAX + '\n Level:' + recieved_user_data[lastupdate].level + "\n EXP:" + recieved_user_data[lastupdate].EXP
                 });
             });
             break;
@@ -239,7 +239,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             default:
                 bot.sendMessage({
                   to:channelID,
-                  message: 'uwu whats this? *nuzzles ur message* sowwy i dont wecognise this command'
+                  message: 'uwu whats this? sowwy i dont wecognise this command'
                 })
             break;
             // Just add any case commands if you want to..
