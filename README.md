@@ -1,5 +1,5 @@
 # discord_uwu_bot
-im so sorry i brought this horrendous existence into the orld
+im so sorry i brought this horrendous existence into the world
 
 COMMANDS:
 
