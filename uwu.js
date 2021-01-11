@@ -71,7 +71,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 var message_string="HP:" + String(boss_hp) + " 100";
                 bot.sendMessage({
                     to: channelID,
-                    message: 'HOLY FUCKING SHIT ITS A WHALE KILL IT' ,
+                    message: 'ITS A WHALE MONSTER KILL IT' ,
                 });
                 bot.sendMessage({
                     to: channelID,
