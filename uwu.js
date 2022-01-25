@@ -14,7 +14,7 @@ var bot = new Discord.Client({
 bot.on('ready', function (evt) {
 });
 
- var user_db = new Datastore({ filename: 'data/user_data.txt' , autoload: true });
+ var user_db = new Datastore({ filename: 'data/uwuser_data.txt' , autoload: true });
  user_db.loadDatabase(function (err) {    // Callback is optional
   // Now commands will be executed
 });
